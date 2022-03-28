@@ -1,0 +1,24 @@
+{
+	"name": "ksql",
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"version": "0.1.4",
+	"dependencies": {
+		"@types/better-sqlite3": "^7.5.0",
+		"better-sqlite3": "^7.5.0"
+	},
+	"scripts": {
+		"build": "npx tsc -p ./"
+	},
+	"keywords": ["database", "sql", "sync"],
+	"license": "MIT",
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mia-pi-git/ksql"
+	},
+	"readme": "./README.md",
+	"description": "A simple, synchronous, SQLite database wrapper for Node.js"
+}
